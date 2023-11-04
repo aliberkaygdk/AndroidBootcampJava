@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AnBean</string>
+
+    <string name="usernameText">Username</string>
+    <string name="passwordText">Password</string>
+    <string name="welcomeText">Welcome to AnBean</string>
+    <string name="newAccountText">If you do not have an account, please create one</string>
+    <string name="loginButton">Sign In</string>
+    <string name="newAccountButton">Sign Up</string>
+
+</resources>

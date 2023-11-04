@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AnBean</string>
+
+    <string name="usernameText">Kullanıcı adı</string>
+    <string name="passwordText">Şifre</string>
+    <string name="welcomeText">AnBeana Hoşgeldin</string>
+    <string name="newAccountText">Hesabınız yoksa lütfen oluşturun</string>
+    <string name="loginButton">Giriş Yap</string>
+    <string name="newAccountButton">Hesap Oluştur</string>
+
+</resources>
