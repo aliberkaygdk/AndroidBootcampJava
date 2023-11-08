@@ -12,7 +12,8 @@
         tools:layout="@layout/fragment_anasayfa" >
         <action
             android:id="@+id/gecisMainToA"
-            app:destination="@id/sayfaAFragment" />
+            app:destination="@id/sayfaAFragment"
+            app:popUpToInclusive="false" />
         <action
             android:id="@+id/gecisMainToX"
             app:destination="@id/sayfaXFragment" />
@@ -24,8 +25,7 @@
         tools:layout="@layout/fragment_sayfa_a" >
         <action
             android:id="@+id/gecisAToB"
-            app:destination="@id/sayfaBFragment"
-            app:popUpTo="@id/sayfaAFragment" />
+            app:destination="@id/sayfaBFragment" />
     </fragment>
     <fragment
         android:id="@+id/sayfaBFragment"
@@ -35,8 +35,8 @@
         <action
             android:id="@+id/gecisBToY"
             app:destination="@id/sayfaYFragment"
-            app:popUpTo="@id/sayfaAFragment"
-            app:popUpToInclusive="true" />
+            app:popUpTo="@id/anasayfaFragment"
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/sayfaXFragment"

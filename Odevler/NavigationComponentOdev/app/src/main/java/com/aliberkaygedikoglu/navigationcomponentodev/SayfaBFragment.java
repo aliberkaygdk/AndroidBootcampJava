@@ -2,6 +2,7 @@ package com.aliberkaygedikoglu.navigationcomponentodev;
 
 import android.os.Bundle;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
 
@@ -28,6 +29,13 @@ public class SayfaBFragment extends Fragment {
                 Navigation.findNavController(v).navigate(R.id.gecisBToY);
             }
         });
+        OnBackPressedCallback geri = new OnBackPressedCallback(true) {
+            @Override
+            public void handleOnBackPressed() {
+
+            }
+        };
+        requireActivity().getOnBackPressedDispatcher().addCallback(getViewLifecycleOwner(),geri);
 
         return binding.getRoot();
     }
