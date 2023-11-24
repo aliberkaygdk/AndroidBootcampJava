@@ -15,8 +15,8 @@
 
         app:backgroundTint="@color/white"
         app:itemActiveIndicatorStyle="@null"
-        app:itemIconTint="@color/greyButton"
-        app:itemRippleColor="@color/greyButton"
+        app:itemIconTint="@color/nav_selector"
+        app:itemRippleColor="@color/nav_selector"
         app:itemTextAppearanceActive="@style/item_color"
         app:itemTextAppearanceActiveBoldEnabled="false"
         app:itemTextColor="@color/menu_yazi"
@@ -87,7 +87,7 @@
                 android:background="@drawable/bildirim_backround"
 
 
-                android:elevation="10dp"
+
                 android:src="@drawable/bildirim">
 
             </androidx.appcompat.widget.AppCompatImageButton>
