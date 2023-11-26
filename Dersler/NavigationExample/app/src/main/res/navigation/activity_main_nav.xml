@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_nav"
+    app:startDestination="@id/anasayfaFragment">
+    <fragment
+        android:id="@+id/anasayfaFragment"
+        android:name="com.aliberkaygedikoglu.navigationexample.AnasayfaFragment"
+        android:label="fragment_anasayfa"
+        tools:layout="@layout/fragment_anasayfa" >
+        <action
+            android:id="@+id/gecis"
+            app:destination="@id/digerSayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/digerSayfaFragment"
+        android:name="com.aliberkaygedikoglu.navigationexample.DigerSayfaFragment"
+        android:label="fragment_diger_sayfa"
+        tools:layout="@layout/fragment_diger_sayfa" >
+        <argument
+            android:name="veri"
+            app:argType="string"
+            android:defaultValue="boş" />
+    </fragment>
+</navigation>
